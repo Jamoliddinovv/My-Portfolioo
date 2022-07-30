@@ -1,0 +1,11 @@
+@media screen and (max-width:1150px) {
+
+    h1{
+        width: 60%;
+    }
+    
+    html{
+        width: 130%;
+    }
+    
+    }

@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body
+{
+    position: relative;
+    background: linear-gradient(45deg,#ff0057,#2196f3);
+}
+.text
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+
+}
+.text
+{
+    filter: blur(25px);
+    transition: 0.4s;
+}
+.text h2
+{
+    display: flex;
+    gap: 5px;
+    font-size: 140px;
+    color: rgb(0, 0, 0);
+}
+.text:hover
+{
+    filter: blur(0);
+    text-shadow: 0 70px 100px black;
+}
+.text h2:nth-child(1)
+{
+    margin-left: 50px;
+}
+p a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 116);
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%);
+    filter: drop-shadow(5px 5px 5px black);
+}
